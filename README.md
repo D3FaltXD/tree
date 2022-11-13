@@ -79,17 +79,9 @@ git clone https://github.com/D3FaltXD/tree.git
 
 - <div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> JS <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a></div>
 
-- <div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">  Bootstrap  <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a></div>
-
 <br>
 <br>
 
 # References
 
-| Name | Link |
-| --- | ---|
-| Codes4Education | https://codes4education.com |
-| W3C School | https://www.w3schools.com |
-| Bootstrap | https://getbootstrap.com |
-| Stack Overflow | https://stackoverflow.com |
-| Github | https://github.com |
+Original Project: https://github.com/johnggli/linktree#-how-to-contribute

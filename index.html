@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayan Roy | Connect</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/100018672?v=4" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+
+
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars1"></div>
+    </section>
+    <!--Small text-->
+ 
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="https://github.com/D3FaltXD" target="__blank">
+      <img src="https://avatars.githubusercontent.com/u/100018672?v=4" alt="Profile Picture">
+    </a>
+
+
+
+    <div id="userName">
+      @D3Falt
+      <p style="color: var(--heading);">AKA Sayan Roy</p>
+    </div>
+
+    <div id="links">
+      <a class="link" href="https://github.com/D3FaltXD" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/roy-sayan-lpu/" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+      </a>
+      <a class="link" href="https://www.instagram.com/d3faltxd/" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="https://twitter.com/G2Ahri" target="_blank">
+        <i class="fab fa-twitter">&nbsp;</i>Twitter
+      </a>
+        <div class="tooltip">
+          <button onclick="myFunction()" onmouseout="outFunc()">
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            <i class="fab fa-discord">&nbsp;</i>D3Falt#0459
+            </button>
+
+</div>
+    </div>
+    <div>
+      <p class="textHead">N A M E</p>
+      <p class="textBody">SAYAN ROY</p>
+      <p class="textHead">A G E N C Y</p>
+      <p class="textBody">DESIGNER</p>
+  
+
+    </div>
+    <script>
+      function myFunction() {
+        var copyText = "D3Falt#0459";
+        navigator.clipboard.writeText(copyText);
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copied: " + copyText;
+      }
+      
+      function outFunc() {
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copy to clipboard";
+      }
+      </script>
+  </body>
+</html>

@@ -5,13 +5,13 @@
 :root {
     --bgColor: #0F2034;
     --bgColor2: #0C1B2E;
-    --accentColor: #1BD0D9;
+    --accentColor: #131931;
     --textColor: #ffffff;
     --font: 'Karla', sans-serif;
     --font2: 'Noto Sans Mono', monospace;
 
     --delay: .3s;
-    --heading: #5A8E9E;
+    --heading: #C0C0C0;
 }
 p.textHead{
     font-family: var(--font2);
@@ -54,6 +54,8 @@ p.textBody{
     text-decoration: none;
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
+    background-color:var(--accentColor);
+
   }
   
   .tooltip .tooltiptext {
@@ -87,18 +89,20 @@ p.textBody{
     visibility: visible;
     opacity: 1;
     background-color: var(--accentColor);
-        color: var(--bgColor)
+        color: #1BD0D9;
   }
   
 
   button{
-    background: none;
+    background: var(--accentColor);
 	color: inherit;
 	border: none;
 	padding: 0;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    background-color:var(--accentColor);
+
   }
 body {
     margin: 0;
@@ -106,7 +110,7 @@ body {
     min-height: 100vh;
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
-    /* background-image: url('https://bit.ly/3nFVqJh'); */
+    background-image: url('https://r4.wallpaperflare.com/wallpaper/346/517/218/digital-art-artwork-illustration-environment-purple-background-hd-wallpaper-e09015a99f46aee3385f97f66bf67428.jpg');
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
@@ -147,7 +151,7 @@ body {
 
 .link {
     position: relative;
-    background-color: transparent;
+    background-color:var(--accentColor);
     color: var(--textColor);
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
@@ -166,7 +170,7 @@ body {
 @media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
-        color: var(--bgColor);
+        color: #1BD0D9;
     }
    
 }
@@ -322,7 +326,7 @@ body {
 @media (hover: hover) {
     .popup-close:hover {
         background-color: var(--textColor);
-        color: var(--bgColor);
+        color: #1BD0D9;
     }
 }
 

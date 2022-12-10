@@ -52,7 +52,7 @@ A fully customizale Link Tree Alternative with premium features
 
 # Installation
 
-To install **Kurry and Kabab**, follow these steps:
+To install **tree**, follow these steps:
 
 > [Fork the repository](https://github.com/D3FaltXD/tree/fork) 
 
